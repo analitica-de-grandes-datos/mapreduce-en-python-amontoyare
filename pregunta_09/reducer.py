@@ -17,5 +17,5 @@ if __name__ == '__main__':
 
     sorted_data = sorted(data, key=lambda x: (x[2]))
 
-    for item in sorted_data[:5]:
+    for item in sorted_data[:6]:
         sys.stdout.write("{}   {}   {}\n".format(item[0], item[1], item[2]))

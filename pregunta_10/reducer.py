@@ -40,10 +40,10 @@ if __name__ == '__main__':
                 # el flujo de salida
                 #
                 data = set(sorted(data))
-                sys.stdout.write("{}\t{}\n".format(curkey, ', '.join(str(x) for x in data)))
+                sys.stdout.write("{}\t{}\n".format(curkey, ','.join(str(x) for x in data)))
                 data = []
 
             curkey = key
             data.append(val)
     data = set(sorted(data))
-    sys.stdout.write("{}\t{}\n".format(curkey, ', '.join(str(x) for x in data)))
+    sys.stdout.write("{}\t{}\n".format(curkey, ','.join(str(x) for x in data)))
